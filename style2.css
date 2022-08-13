@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------------------------*/
+
+.nav-enlace {
+    display: inline-block;
+    background: rgb(244, 247, 250);
+    color: rgb(29, 73, 112);
+    padding: 10px 30px;
+    font-family: Gill Sans MT;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.nav-enlace:hover {
+    background: rgb(146, 12, 12);
+    border-radius: 20px;
+
+}
+
+.nav-list {
+    background: rgb(236, 239, 246);
+    padding: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* ------------------------------------------------------*/
+
+
+
+
+
+
+/*---------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------*/
+
+
+img {
+    width: 100%;
+    opacity: 100%;
+}
+
+.img-title {
+    margin: 40px;
+}
+
+
+h2 {
+    color: red;
+    font-size: 17px;
+    margin: 10px;
+
+}
+
+.h3 {
+    font-size: 15px;
+    color: rgb(88, 80, 80);
+
+}
+
+
+
+
+/* este es el div del html*/
+#restPaises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/* este div va dentro del div containerSingle que contiene las img*/
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid white;
+    box-shadow: 2px 4px 5px #25308c;
+    padding: 15px;
+    margin: 20px;
+    width: 220px;
+    height: 300px;
+
+}
+
+
+.img-banderas {
+    width: 200px;
+
+}
+
+
+
+
+/*este es la clase que le di al js que contiene todo*/
+.containerSingle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+
+    /*------------------------------*/
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 2px 2px 4px #8488a8;
+    width: 300px;
+    height: 400px;
+
+}
+
+
+
+
+
+
+
+.container-principal img {
+    width: 200px;
+}
+
+
+/*----------------------------*/
+
+/*-------------------------------------------*/
